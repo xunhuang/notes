@@ -1,7 +1,7 @@
 +++
 title = 'My First Post'
 date = 2023-09-02T12:26:05-07:00
-draft = true
+draft = false
 +++
 
 
