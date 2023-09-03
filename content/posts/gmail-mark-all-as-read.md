@@ -1,7 +1,7 @@
 +++
 title = 'Gmail Mark All as Read'
 date = 2023-09-02T16:33:28-07:00
-draft = true
+draft = false
 +++
 
 ## Too many un-read Gmail messages
