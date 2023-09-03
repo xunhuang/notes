@@ -1,5 +1,5 @@
 +++
-title = 'Setting up this site'
+title = 'Setting up this site with Hugo and Github'
 date = 2023-09-02T12:26:05-07:00
 draft = false
 +++
@@ -81,3 +81,7 @@ Steps mainly perform the following
 - Deploy from Main Branch
 - Setting up Github Action so that future commits will be publish automatically within 2-3 minutes.  
 
+
+### Adding Disqus for Comments
+
+{{ template "_internal/disqus.html" . }}
