@@ -83,5 +83,3 @@ Steps mainly perform the following
 
 
 ### Adding Disqus for Comments
-
-{{ template "_internal/disqus.html" . }}
