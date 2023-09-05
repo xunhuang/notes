@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Wilson&#39;s Random Notes</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on Wilson&#39;s Random Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Sep 2023 16:33:28 -0700</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gmail Mark All as Read</title>
+      <link>https://example.org/posts/gmail-mark-all-as-read/</link>
+      <pubDate>Sat, 02 Sep 2023 16:33:28 -0700</pubDate>
+      
+      <guid>https://example.org/posts/gmail-mark-all-as-read/</guid>
+      <description>Too many un-read Gmail messages My gmail pertutually contains thousand of unread messages. Most of them are low signal but I don&amp;rsquo;t have a quick (enough) to mark all as read. My old method was to
+Create a earch filter like https://mail.google.com/mail/u/0/#search/label%3Aunread Select-all threads, and then &amp;hellip; and then &amp;ldquo;Mark all as read&amp;rdquo; Sometimes, you can expand the selection to all if there are paginations Keyboard Shortcuts This is too slow, so I looked up Gmail keyboard shortcuts</description>
+    </item>
+    
+    <item>
+      <title>Setting up this site with Hugo and Github</title>
+      <link>https://example.org/posts/my-first-post/</link>
+      <pubDate>Sat, 02 Sep 2023 12:26:05 -0700</pubDate>
+      
+      <guid>https://example.org/posts/my-first-post/</guid>
+      <description>Inspired by Lillian&amp;rsquo;s blog I came across Lillian Weng&amp;rsquo;s ML Blog and enjoyed the style a lot so I decided to create a page to keep track of random note-worthy stuff I ran into withe same Hugo tool.
+Why do I like this Clean style Markdown based Github to track changes Github Pages for free hosting Streamlined publishing workflow (commit -&amp;gt; push -&amp;gt; publish) with Github Action. How I work on a Mac, assuming git is already install.</description>
+    </item>
+    
+  </channel>
+</rss>

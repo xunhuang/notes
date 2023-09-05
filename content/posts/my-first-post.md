@@ -83,3 +83,16 @@ Steps mainly perform the following
 
 
 ### Adding Disqus for Comments
+
+
+### PS
+
+When setting up update on this on a different computer
+
+```
+git clone xxxxx
+cd xxxx
+git submodule update --init --recursive
+# assuming hugo in installed (or 'brew install hugo')
+hugo server -D
+```
