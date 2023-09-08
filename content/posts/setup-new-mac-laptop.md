@@ -16,6 +16,8 @@ draft = true
     - [ ] code . 
 https://dev.to/scrabill/automatically-open-the-current-directory-in-vs-code-from-terminal-232d 
     - [ ] defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+    - [] defaults write -g ApplePressAndHoldEnabled -bool false   (this make it work on chrome too)
+
 - [ ] git?
 - [ ] xcode
 - [ ] mouse and keyboard preference (how do I save these across different computers)?
