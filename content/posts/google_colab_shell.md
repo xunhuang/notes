@@ -6,6 +6,8 @@ draft = false
 
 [Google Colab](https://colab.research.google.com/) is basically a web GUI in front of a full-container on Linux. While you can run shell command one by one, it is not easy to run commands interactively. We can use [tmate](https://tmate.io/) to help get a full shell. 
 
+You can get the shell access if you pay for higher level Google Colab plans. With this tip, you can get that for free. 
+
 ### How
 
 Add a code block with following
