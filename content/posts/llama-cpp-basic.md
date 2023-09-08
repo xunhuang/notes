@@ -16,7 +16,7 @@ The ML terminology in the eyes of non-ML person
 - Training --> writing/build a function
 - Quantize --> shrinking/optimizing the size of function, make it fast, and trade off against quality of the output
 
-## Inferenceing on M1/M2 Mac
+## Inferencing on M1/M2 Mac
 
 Project [llama.cpp ](https://github.com/ggerganov/llama.cpp) makes this easy.
 
@@ -71,7 +71,7 @@ This works. You might see documentations in other place for GGML format , which 
 ### Getting the original Llama model from Meta
 
 While you can download GGUF models and inference directly, however, I want to start from the original model
-from Meta, produce a GGUF model, demystifiying the GGUF conversion process. 
+from Meta, produce a GGUF model, demystifying the GGUF conversion process. 
 
 Getting Meta's original model requires this [website](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and submit a download request. You will get an email that directs you to git clone a repo to get a download.sh file.
 
@@ -109,9 +109,10 @@ generate: n_ctx = 512, n_batch = 512, n_predict = 400, n_keep = 0
  Armstrong and Aldrin spent about two-and-a-half hours on the lunar surface, collecting samples and conducting experiments before returning to the lunar module Eagle and heading back to Earth. The mission was a historic achievement that marked the first time humans had visited another celestial body.
 ```
 
-It appears that gguf is a format that is architecture independent, you can run it anywhere. llama.cpp just makes it runable on mac, with optimization it uses METAL to run even faster.
+It appears that gguf is a format that is architecture independent, you can run it anywhere. llama.cpp just makes it runnable on mac, with optimization it uses METAL to run even faster.
 
-### So they are runable now, why quantize even further? 
+
+### So they are runnable now, why quantize even further?  
 - because you want to run them faster.... 
 - because you want run on even smaller devices...
 - because you want run at scale 
@@ -148,7 +149,7 @@ This google colab
 [note book]( https://colab.research.google.com/drive/1ZdRhLo06WJaX9KP4KzWcqHXMsmWJaAxb?usp=sharing)
 is based on llama-2-13B-chat module and works as of  9/8/2023
 
-Inferencing for llama-2-13B-chat on T4 Runtime take 2 mintues, a bit long.
+Inferencing for llama-2-13B-chat on T4 Runtime take 2 minutes, a bit long.
 
 The inferencing for llama-2-7B-chat on this [note book](https://colab.research.google.com/drive/1h4NXWutecKMs2jEqulbNgoEQ0sbrkoqW?usp=sharing)
 of T4 Runtime takes 23s. 
