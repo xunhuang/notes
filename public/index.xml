@@ -6,7 +6,18 @@
     <description>Recent content on Wilson&#39;s Random Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Sep 2023 16:33:28 -0700</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 14:16:51 -0700</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Launching a Shell/Terminal for Google Colab</title>
+      <link>https://example.org/posts/google_colab_shell/</link>
+      <pubDate>Tue, 05 Sep 2023 14:16:51 -0700</pubDate>
+      
+      <guid>https://example.org/posts/google_colab_shell/</guid>
+      <description>Google Colab is basically a web GUI in front of a full-container on Linux. While you can run shell command one by one, it is not easy to run commands interactively. We can use tmate to help get a full shell.
+You can get the shell access if you pay for higher level Google Colab plans. With this tip, you can get that for free.
+How Add a code block with following</description>
+    </item>
+    
     <item>
       <title>Gmail Mark All as Read</title>
       <link>https://example.org/posts/gmail-mark-all-as-read/</link>

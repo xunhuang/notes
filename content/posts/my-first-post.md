@@ -85,7 +85,7 @@ Steps mainly perform the following
 ### Adding Disqus for Comments
 
 
-### PS
+### git submodule needs to pull
 
 When setting up update on this on a different computer
 
@@ -96,3 +96,20 @@ git submodule update --init --recursive
 # assuming hugo in installed (or 'brew install hugo')
 hugo server -D
 ```
+
+### Oh, you don't need to use a computer, just use Codespaces on Github
+
+Believe it or not, just press "." on this repo, and github will launch the codespace for you to access via your browser and VSCode. 
+
+You can sync your settings and start editing. However, you must run this first
+
+```
+git submodule update --init --recursive
+```
+
+After this you can do 
+```
+hugo server -D
+```
+and codespace wi smart enough to do the auto-port mapping and you can access the draft version webpage in the browser to how it looks. 
+

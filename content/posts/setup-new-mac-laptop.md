@@ -1,0 +1,24 @@
++++
+title = 'Setup New Mac Laptop'
+date = 2023-09-08T06:07:22Z
+draft = true
++++
+
+## setting up new laptop
+
+
+- [ ] Chrome
+- [ ] Karabiner-Elements
+- [ ] Dropbox
+- [ ] vscode
+    - [ ] login to GitHub profile…. corporate device won’t allow redirect. if you cancel twice, it will make a fallback method work (it will give you a code to enter on the GitHub page) 
+    - [ ] copilot 
+    - [ ] code . 
+https://dev.to/scrabill/automatically-open-the-current-directory-in-vs-code-from-terminal-232d 
+    - [ ] defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+- [ ] git?
+- [ ] xcode
+- [ ] mouse and keyboard preference (how do I save these across different computers)?
+- [ ] brew install hugo
+- [ ] brew install jq
+- RCfiles (how do we make this work with github dotfiles)
