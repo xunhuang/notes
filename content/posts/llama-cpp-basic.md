@@ -1,5 +1,5 @@
 +++
-title = 'Llama Cpp 101'
+title = 'Llama 2 Inferencing Basics'
 date = 2023-09-08T06:21:08Z
 draft = false
 +++
@@ -143,9 +143,9 @@ This passage discusses Neil Armstrong's life and accomplishments as an astronaut
 ```
 You can see the quantized size is 3.6G, reduced from the original size of 13G. It runs super fast as well.
 
-## Llama cpp on google colab
+## Llama.cpp on google Colab
 
-This google colab 
+This google Colab 
 [note book]( https://colab.research.google.com/drive/1ZdRhLo06WJaX9KP4KzWcqHXMsmWJaAxb?usp=sharing)
 is based on llama-2-13B-chat module and works as of  9/8/2023
 
@@ -154,4 +154,66 @@ Inferencing for llama-2-13B-chat on T4 Runtime take 2 minutes, a bit long.
 The inferencing for llama-2-7B-chat on this [note book](https://colab.research.google.com/drive/1h4NXWutecKMs2jEqulbNgoEQ0sbrkoqW?usp=sharing)
 of T4 Runtime takes 23s. 
 
-## running them on AWS.... do we really need llama.cpp to run these? 
+
+## Google Colab without Llama.cpp
+
+Llama.cpp performs quantization and allows such model to be run in lower performing GPU. While great, I still want to run the
+Llama 2 model on pytorch directly, without the *magic* for Llama.cpp, to get the ultimate inference quality and experience the slow down
+so I can appreciate the llama.cpp magic.
+
+It was difficult to find a notebook that does inferencing without llama.cpp (perhaps for good reasons).  Here is one that find and [copied](https://colab.research.google.com/drive/16uLq1YJM0A4sJwJgf19Cf15RNP1qbStQ?usp=sharing) and it does the following: 
+
+- It downloads the llama 2 (7B-chat) model, directly from Meta, instead of using someone else's like TheBloke converted model. The process is a bit awkward as you first have to go to Meta website to request a download link (which expires in 24 hours), and you copy the download link into the notebook, then it can perform the download for you. 
+- It runs torchrun and a simply python loop to ask user for a prompt and run inference on the prompt.
+
+I wish it was this simple. :) this didn't work, and it's because Google Colab by default runs on the T4 GPU, which can't run even the smallest Llama 2 (7B) model and it gives
+a cryptic error message
+
+```
+error:torch.distributed.elastic.multiprocessing.api:failed
+```
+
+In order to run it with larger runtime, I had to switch to a paid plan ("Pay as you go" for $9.99 for 100 Compute Unit, whatever that means). I tried to choose a V100 GPU but I go same error. I then selected the A100 GPU but google told me they don't have A100 GPU right now and then default back to V100 (which I didn't notice until failing a few times). Another random tries later, I got a A100 by chance. Then my run was successful.
+
+```
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 16.90 seconds
+chat prompt (or 'exit' to quit): whats your name
+User: whats your namen
+> Assistant:  Hello! My name is LLaMA, I'm a large language model trained by a team of researcher at Meta AI. 😊
+n==================================n
+chat prompt (or 'exit' to quit): who created you
+User: who created youn
+> Assistant:  I was created by a team of researcher at Meta AI. I'm a large language model, my knowledge was built from a massive corpus of text, including books, articles, and websites, and I was trained using a variety of machine learning algorithms. My creators are a group of researcher at Meta AI, who are constantly working to improve my performance and add new features. 😊
+n==================================n
+chat prompt (or 'exit' to quit): the first man on the moon was
+User: the first man on the moon wasn
+> Assistant:  The first man to walk on the moon was Neil Armstrong. He stepped onto the moon's surface on July 20, 1969, during the Apollo 11 mission. Armstrong famously declared, "That's one small step for man, one giant leap for mankind," as he became the first person to set foot on the lunar surface.
+n==================================n
+chat prompt (or 'exit' to quit): tell me more
+User: tell me moren
+```
+
+Now I'm paying more attention the pane on the right on System RAM,  GPU RAM, Disk space  for A100
+
+![A100](/a100-google-colab.png 'A100') 
+
+I repeated the run with a V100, it looks like the _System RAM_ is what got me. 
+
+![V100](/v100-google-colab.png 'V100') 
+
+This is why you don't see google colab notebooks for running Llama 2 models directly and instead rely on other quantized models 
+
+- you have to download the model, with expiring links, from Meta (Meta, please make this less friction)
+- More importantly, Google Colab's free GPU can run the inferencing directly, and even the paid version you have to fight with other for availability of A100 GPUs. 
+
+For now, the solution is get quantized model (small/and fast) and run them on free version of the google Colab.
+
+## Running them on AWS.... do we really need llama.cpp to run these? 
+
+Amazon SageMaker has a number of notebook that's well-configured. You can deploy a server with a notebook and you can directly run inference. It's nice and simple,
+but you can probably get to see the wrapping code on how it is run. It is a little bit too well-package for my taste.
+
+Many youtube videos online for if you search for 'llama 2 amazon sagemaker"
