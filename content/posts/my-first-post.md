@@ -113,3 +113,11 @@ hugo server -D
 ```
 and codespace wi smart enough to do the auto-port mapping and you can access the draft version webpage in the browser to how it looks. 
 
+
+### images path broken
+
+Add the following to hugo.toml to fix the broken images problem.
+
+```
+relativeURLs = true
+```
