@@ -97,21 +97,18 @@ git submodule update --init --recursive
 hugo server -D
 ```
 
-### Oh, you don't need to use a computer, just use Codespaces on Github
+### Oh, you don't need to use a computer, just use Codespace on Github
 
-Believe it or not, just press "." on this repo, and github will launch the codespace for you to access via your browser and VSCode. 
+Believe it or not, just press "." on this repo, and github will launch a codespace for you to access via your browser and VSCode. 
 
 You can sync your settings and start editing. However, you must run this first
 
 ```
 git submodule update --init --recursive
-```
-
-After this you can do 
-```
 hugo server -D
 ```
-and codespace wi smart enough to do the auto-port mapping and you can access the draft version webpage in the browser to how it looks. 
+
+Codespace is smart enough to do auto-port mapping and you can access the draft version webpage in a browser to see how it looks. 
 
 
 ### images path broken
