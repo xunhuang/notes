@@ -2,4 +2,5 @@ baseURL = 'https://xunhuang.github.io/notes/'
 languageCode = 'en-us'
 title = "Wilson's Random Notes"
 theme = 'ananke'
+relativeURLs = true
 disqusShortname = 'wilsonnotes'
