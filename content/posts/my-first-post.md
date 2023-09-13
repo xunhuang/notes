@@ -109,12 +109,3 @@ hugo server -D
 ```
 
 Codespace is smart enough to do auto-port mapping and you can access the draft version webpage in a browser to see how it looks. 
-
-
-### images path broken
-
-Add the following to hugo.toml to fix the broken images problem.
-
-```
-relativeURLs = true
-```

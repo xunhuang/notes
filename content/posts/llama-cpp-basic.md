@@ -198,11 +198,11 @@ User: tell me moren
 
 Now I'm paying more attention the pane on the right on System RAM,  GPU RAM, Disk space  for A100
 
-![A100](/a100-google-colab.png 'A100') 
+![A100](../images/a100-google-colab.png)
 
 I repeated the run with a V100, it looks like the _System RAM_ is what got me. 
 
-![V100](/v100-google-colab.png 'V100') 
+![V100](../images/v100-google-colab.png)
 
 This is why you don't see google colab notebooks for running Llama 2 models directly and instead rely on other quantized models 
 
@@ -213,7 +213,7 @@ For now, the solution is get quantized model (small/and fast) and run them on fr
 
 ## Running them on AWS.... do we really need llama.cpp to run these? 
 
-Amazon SageMaker has a number of notebook that's well-configured. You can deploy a server with a notebook and you can directly run inference. It's nice and simple,
-but you can probably get to see the wrapping code on how it is run. It is a little bit too well-package for my taste.
+Amazon SageMaker has a number of well-configured notebooks. You can deploy a server with a notebook to directly run inference. It's nice and simple,
+and you can probably get to see the wrapping code on how it is run. It is a little bit too well-package for my taste.
 
 Many youtube videos online for if you search for 'llama 2 amazon sagemaker"
