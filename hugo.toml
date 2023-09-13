@@ -2,5 +2,4 @@ baseURL = 'https://examples.com/'
 languageCode = 'en-us'
 title = "Wilson's Random Notes"
 theme = 'ananke'
-relativeURLs = true
 disqusShortname = 'wilsonnotes'
