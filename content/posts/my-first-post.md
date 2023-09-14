@@ -82,10 +82,10 @@ Steps mainly perform the following
 - Setting up Github Action so that future commits will be publish automatically within 2-3 minutes.  
 
 
-### Adding Disqus for Comments
+## Adding Disqus for Comments
 
 
-### git submodule needs to pull
+## git submodule needs to pull
 
 When setting up update on this on a different computer
 
@@ -97,7 +97,7 @@ git submodule update --init --recursive
 hugo server -D
 ```
 
-### Oh, you don't need to use a computer, just use Codespace on Github
+## Oh, you don't need to use a computer, just use Codespace on Github
 
 Believe it or not, just press "." on this repo, and github will launch a codespace for you to access via your browser and VSCode. 
 
