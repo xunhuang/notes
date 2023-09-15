@@ -7,7 +7,7 @@ draft = false
 ## Getting to "Hello World"
 
 The world of LLM is a wild. Getting a prompt from OpenAI or trying demos on HuggingFace is easy
-but I need to run things on my own, following the playbook of *Replicate*, *modify*, *innovate*, first on my own hardware, then on google colab, and eventually on my own AWS/Google Cloud instance. After the basics, I proceed to think about devops and mlops. 
+but I need to run things on my own, following the playbook of *Replicate*, *Improve*, *Innovate*, first on my own hardware, then on google colab, and eventually on my own AWS/Google Cloud instance. After the basics, I proceed to think about devops and mlops.  Here is a good article for [Why bother learning how to self-host?](http://marble.onl/posts/why_host_your_own_llm.html)
 
 The ML terminology in the eyes of non-ML person
 
