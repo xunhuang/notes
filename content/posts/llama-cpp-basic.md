@@ -4,30 +4,35 @@ date = 2023-09-08T06:21:08Z
 draft = false
 +++
 
-## Getting to "Hello World"
+## Introduction to Llama 2 Inferencing Basics
 
-The world of LLM is a wild. Getting a prompt from OpenAI or trying demos on HuggingFace is easy
-but I need to run things on my own, following the playbook of *Replicate*, *Improve*, *Innovate*, first on my own hardware, then on google colab, and eventually on my own AWS/Google Cloud instance. After the basics, I proceed to think about devops and mlops.  Here is a good article for [Why bother learning how to self-host?](http://marble.onl/posts/why_host_your_own_llm.html)
+The realm of Language Model Learning (LLM) can be quite complex. While using OpenAI prompts or HuggingFace demos is straightforward, the need arises to run operations independently. This involves following a systematic approach of *Replication*, *Improvement*, and *Innovation*, initially on personal hardware, then on Google Colab, and eventually on personal AWS/Google Cloud instances. After mastering the basics, the focus shifts towards DevOps and MLOps. Here is an insightful article on [Why bother learning how to self-host?](http://marble.onl/posts/why_host_your_own_llm.html)
 
-The ML terminology in the eyes of non-ML person
+To simplify the Machine Learning (ML) terminology for non-ML individuals, here are some definitions:
 
-- Model --->  a function 
-- Inferencing ---> invoking a function
-- Training --> writing/build a function
-- Quantize --> shrinking/optimizing the size of function, make it fast, and trade off against quality of the output
+- Model: This is essentially a function 
+- Inferencing: This refers to invoking a function
+- Training: This involves writing or building a function
+- Quantize: This is the process of shrinking or optimizing the size of a function to enhance its speed, often at the expense of the quality of the output
 
 ## Inferencing on M1/M2 Mac
 
-Project [llama.cpp ](https://github.com/ggerganov/llama.cpp) makes this easy.
+Project [llama.cpp ](https://github.com/ggerganov/llama.cpp) makes this easy. Installing and compiling 
 
-Let's skip the original model, go use a pre-converted model directly first.
+```
+git clone https://github.com/ggerganov/llama.cpp.git
+cd llama.cpp
+make
+```
+
+Let's skip using the original Meta released Llama model, and use a pre-converted model directly first.
 
 ```
 curl -L https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF/resolve/main/llama-2-13b-chat.Q5_0.gguf  --remote-name
 ./main -m llama-2-13b-chat.Q5_0.gguf -p "Building a website can be done in 10 simple steps:\nStep 1:" -n 400 -e
 ```
 
-This failed with a weird error message.
+This might fail with a weird error message.
 ```
 GGML_ASSERT: ggml-metal.m:1015: false && "not implemented"
 ```
