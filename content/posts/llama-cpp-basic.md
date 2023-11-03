@@ -18,7 +18,7 @@ The ML terminology in the eyes of non-ML person
 
 ## Inferencing on M1/M2 Mac
 
-Project [llama.cpp ](https://github.com/ggerganov/llama.cpp) makes this easy.
+Project [llama.cpp ](https://github.com/ggerganov/llama.cpp) makes this easy. A good article on [how this is even possible](https://finbarr.ca/how-is-llama-cpp-possible/), I found the two tables for memory required for  (parameter size, memory required), and (parameter size, response time) useful. 
 
 Let's skip the original model, go use a pre-converted model directly first.
 
