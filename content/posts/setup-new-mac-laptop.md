@@ -1,7 +1,7 @@
 +++
 title = 'Setup New Mac Laptop'
 date = 2023-09-08T06:07:22Z
-draft = true
+draft = false
 +++
 
 ## setting up new laptop
