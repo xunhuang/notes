@@ -6,7 +6,6 @@ draft = false
 
 ## setting up new laptop
 
-
 - [ ] Chrome
 - [ ] Karabiner-Elements
 - [ ] Dropbox
@@ -24,3 +23,17 @@ https://dev.to/scrabill/automatically-open-the-current-directory-in-vs-code-from
 - [ ] brew install hugo
 - [ ] brew install jq
 - RCfiles (how do we make this work with github dotfiles)
+
+## Markdown with QuickLook Manager (preview)
+
+```
+brew install qlmarkdown
+```
+
+Open Finder -> Applications, right click to open "QL Markdown", run 
+
+```
+qlmanage -r 
+```
+Now find a .md file in finder and press space bar
+
