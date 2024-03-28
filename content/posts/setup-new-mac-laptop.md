@@ -9,20 +9,21 @@ draft = false
 - [ ] Chrome
 - [ ] [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - [ ] Dropbox
-- [ ] vscode  or Cursor(https://cursor.sh/)
+- [ ] Keyboard setting 
+    - setup keyboard to "delay to short, repeat rate fast"
+    - [] defaults write -g ApplePressAndHoldEnabled -bool false   (this make it work on chrome too)
+- [ ] vscode  or [Cursor](https://cursor.sh/)
     - [ ] login to GitHub profile…. corporate device won’t allow redirect. if you cancel twice, it will make a fallback method work (it will give you a code to enter on the GitHub page) 
     - [ ] copilot 
     - [ ] code . 
 https://dev.to/scrabill/automatically-open-the-current-directory-in-vs-code-from-terminal-232d 
-    - [ ] defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
-    - [] defaults write -g ApplePressAndHoldEnabled -bool false   (this make it work on chrome too)
 
-- [ ] git?
+- [ ] git (setup ssh keys)
 - [ ] xcode
-- [ ] mouse and keyboard preference (how do I save these across different computers)?
+- [ ] install [Homebrew](https://brew.sh/)
 - [ ] brew install hugo
 - [ ] brew install jq
-- RCfiles (how do we make this work with github dotfiles)
+- [ ] RCfiles (how do we make this work with github dotfiles)
 
 ## Markdown with QuickLook Manager (preview)
 
