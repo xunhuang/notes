@@ -7,9 +7,9 @@ draft = false
 ## setting up new laptop
 
 - [ ] Chrome
-- [ ] Karabiner-Elements
+- [ ] [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - [ ] Dropbox
-- [ ] vscode
+- [ ] vscode  or Cursor(https://cursor.sh/)
     - [ ] login to GitHub profile…. corporate device won’t allow redirect. if you cancel twice, it will make a fallback method work (it will give you a code to enter on the GitHub page) 
     - [ ] copilot 
     - [ ] code . 
