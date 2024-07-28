@@ -28,6 +28,7 @@ divvy://import/YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjd
     - [ ] login to GitHub profile…. corporate device won’t allow redirect. if you cancel twice, it will make a fallback method work (it will give you a code to enter on the GitHub page) 
     - [ ] copilot 
     - [ ] code . 
+    - [ ] install Cursor
 https://dev.to/scrabill/automatically-open-the-current-directory-in-vs-code-from-terminal-232d 
 
 - [ ] git (setup ssh keys)
