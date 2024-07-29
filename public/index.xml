@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/ssh-tunnel/ssh-tunnel/</link>
       <pubDate>Sun, 28 Jul 2024 14:22:56 -0700</pubDate>
       <guid>http://localhost:1313/posts/ssh-tunnel/ssh-tunnel/</guid>
-      <description>SSH Tunnel Best explaination of the SSH commands Setting up Reverse Tunnel Setup a simple web server with a websocket component git clone https://github.com/radian-software/python-in-a-box cd python-in-a-box rm -rf package-lock.json npm i PORT=8080 node server.js After this you curl http://localhost:8080 should give you a response. or use your browser to navigate to http://localhost:8080 and you should see a python terminal running in the browser. The python process is running on your local machine, and the GUI running xterm.</description>
+      <description>SSH Tunnel Best explaination of the SSH commands Setting up Reverse Tunnel Setup a simple web server with a websocket component git clone https://github.com/radian-software/python-in-a-box cd python-in-a-box rm -rf package-lock.json npm i PORT=8080 node server.js After this curl http://localhost:8080 should give a response. Use a browser to navigate to http://localhost:8080 and it shows a python terminal running in the browser. The python process is running on the local machine with xterm.js in the browser connected to a websocket hosted on &amp;ldquo;/ws&amp;rdquo; of the web server.</description>
     </item>
     <item>
       <title>Learn Python Again</title>
