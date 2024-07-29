@@ -21,6 +21,7 @@ divvy://import/YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjd
 - [ ] Keyboard setting 
     - setup keyboard to "delay to short, repeat rate fast"
     - [] defaults write -g ApplePressAndHoldEnabled -bool false   (this make it work on chrome too)
+- [ ] Chinese Input
 
 ## Developent Setup 
 
