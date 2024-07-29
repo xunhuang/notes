@@ -2,26 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/posts/llama-cpp-basic/</loc>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-28T14:22:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ssh-tunnel/ssh-tunnel/</loc>
+    <lastmod>2024-07-28T14:22:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-28T14:22:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/learn-python-again/</loc>
+    <lastmod>2023-11-03T10:27:39-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/finetune-llam2/</loc>
+    <lastmod>2023-09-13T17:42:59-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/goodreads/</loc>
+    <lastmod>2023-09-13T10:28:04-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/llama-cpp-basic/</loc>
     <lastmod>2023-09-08T06:21:08+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
-    <lastmod>2023-09-08T06:21:08+00:00</lastmod>
+    <loc>http://localhost:1313/posts/setup-new-mac-laptop/</loc>
+    <lastmod>2023-09-08T06:07:22+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2023-09-08T06:21:08+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/google_colab_shell/</loc>
+    <loc>http://localhost:1313/posts/google_colab_shell/</loc>
     <lastmod>2023-09-05T14:16:51-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/gmail-mark-all-as-read/</loc>
+    <loc>http://localhost:1313/posts/gmail-mark-all-as-read/</loc>
     <lastmod>2023-09-02T16:33:28-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/my-first-post/</loc>
+    <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2023-09-02T12:26:05-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

@@ -2,51 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Wilson&#39;s Random Notes</title>
-    <link>https://example.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Wilson&#39;s Random Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Sep 2023 06:21:08 +0000</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jul 2024 14:22:56 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ssh Tunnel</title>
+      <link>http://localhost:1313/posts/ssh-tunnel/ssh-tunnel/</link>
+      <pubDate>Sun, 28 Jul 2024 14:22:56 -0700</pubDate>
+      <guid>http://localhost:1313/posts/ssh-tunnel/ssh-tunnel/</guid>
+      <description>SSH Tunnel Best explaination of the SSH commands Setting up Reverse Tunnel Setup a simple web server with a websocket component git clone https://github.com/radian-software/python-in-a-box cd python-in-a-box rm -rf package-lock.json npm i PORT=8080 node server.js After this you curl http://localhost:8080 should give you a response. or use your browser to navigate to http://localhost:8080 and you should see a python terminal running in the browser. The python process is running on your local machine, and the GUI running xterm.</description>
+    </item>
+    <item>
+      <title>Learn Python Again</title>
+      <link>http://localhost:1313/posts/learn-python-again/</link>
+      <pubDate>Fri, 03 Nov 2023 10:27:39 -0700</pubDate>
+      <guid>http://localhost:1313/posts/learn-python-again/</guid>
+      <description>The asterisk (*) operator The asterisk (*) operator is used in Python in various contexts related to collections:&#xA;Multiplication of Collections: You can use * to repeat sequences like lists or strings a specified number of times.&#xA;# Repeating a list three times numbers = [1, 2, 3] repeated_numbers = numbers * 3 # [1, 2, 3, 1, 2, 3, 1, 2, 3] Argument Unpacking: In function calls, * is used to unpack an iterable into individual arguments expected by the function.</description>
+    </item>
+    <item>
+      <title>Finetuning Llama 2</title>
+      <link>http://localhost:1313/posts/finetune-llam2/</link>
+      <pubDate>Wed, 13 Sep 2023 17:42:59 -0700</pubDate>
+      <guid>http://localhost:1313/posts/finetune-llam2/</guid>
+      <description>Resource [Fine-tune Llama 2 with LoRA for Question Answering] (https://deci.ai/blog/fine-tune-llama-2-with-lora-for-question-answering/) colab notebook Similar Notebook with more details in model manipulation how do these perform anecdotally? To measure the performance of a fine-tuned machine learning model, we need to make sure&#xA;The new fine-tuned model is performing well with new dataset The new model doesn&amp;rsquo;t regress on existing dataset (like you learn something new but forget about your old skills) Here is the one example performed by this Colab notebook You can try this with the default T4 GPU, or better with A100 GPU(paid version) for faster performance.</description>
+    </item>
+    <item>
+      <title>Goodreads</title>
+      <link>http://localhost:1313/posts/goodreads/</link>
+      <pubDate>Wed, 13 Sep 2023 10:28:04 -0700</pubDate>
+      <guid>http://localhost:1313/posts/goodreads/</guid>
+      <description> Services, but not Microservices +++ title = &amp;lsquo;Goodreads&amp;rsquo; date = 2023-09-13T10:28:04-07:00 draft = true +++&#xA;Services, but not Microservices future topics JA3 https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967/ https://scrapeops.io/web-scraping-playbook/how-to-bypass-cloudflare fiddlerEverywhere https://github.com/apify/got-scraping Debugging Tock - hacking AppleScript select TEXT and replace.select TEXT and summarize. </description>
+    </item>
     <item>
       <title>Llama 2 Inferencing Basics</title>
-      <link>https://example.org/posts/llama-cpp-basic/</link>
+      <link>http://localhost:1313/posts/llama-cpp-basic/</link>
       <pubDate>Fri, 08 Sep 2023 06:21:08 +0000</pubDate>
-      
-      <guid>https://example.org/posts/llama-cpp-basic/</guid>
-      <description>Getting to &amp;ldquo;Hello World&amp;rdquo; The world of LLM is a wild. Getting a prompt from OpenAI or trying demos on HuggingFace is easy but I need to run things on my own, following the playbook of Replicate, modify, innovate, first on my own hardware, then on google colab, and eventually on my own AWS/Google Cloud instance. After the basics, I proceed to think about devops and mlops.
-The ML terminology in the eyes of non-ML person</description>
+      <guid>http://localhost:1313/posts/llama-cpp-basic/</guid>
+      <description>Introduction to Llama 2 Inferencing Basics The realm of Language Model Learning (LLM) can be quite complex. While using OpenAI prompts or HuggingFace demos is straightforward, the need arises to run operations independently. This involves following a systematic approach of Replication, Improvement, and Innovation, initially on personal hardware, then on Google Colab, and eventually on personal AWS/Google Cloud instances. After mastering the basics, the focus shifts towards DevOps and MLOps. Here is an insightful article on Why bother learning how to self-host?</description>
     </item>
-    
+    <item>
+      <title>Setup New Mac Laptop</title>
+      <link>http://localhost:1313/posts/setup-new-mac-laptop/</link>
+      <pubDate>Fri, 08 Sep 2023 06:07:22 +0000</pubDate>
+      <guid>http://localhost:1313/posts/setup-new-mac-laptop/</guid>
+      <description>setting up new laptop Chrome Dropbox Keyboard Setups Karabiner-Elements for keyboard shortcuts Divvy for Windows Management run the following on Safari to import the wide-screen windows placement. &amp;ldquo;Option 1 - 9&amp;rdquo; divvy://import/YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBALDBs1Nj1GT1hgaHJ6e4OLVSRudWxs0g0ODxpaTlMub2JqZWN0c1YkY2xhc3OqEBESExQVFhcYGYACgAWABoAHgAiACYAKgAuADYAOgA/dHB0eHyAOISIjJCUmJygpKissLS4sMDEyMzRYc2l6ZVJvd3NfEA9zZWxlY3Rpb25FbmRSb3dfEBFzZWxlY3Rpb25TdGFydFJvd1pzdWJkaXZpZGVkVmdsb2JhbF8QEnNlbGVjdGlvbkVuZENvbHVtbldlbmFibGVkW3NpemVDb2x1bW5zV25hbWVLZXlca2V5Q29tYm9Db2RlXxAUc2VsZWN0aW9uU3RhcnRDb2x1bW5da2V5Q29tYm9GbGFncxAKEAkQAwgJgAQQBQkQCIADEGkQAhIAgAAAUNI3ODk6WiRjbGFzc25hbWVYJGNsYXNzZXNYU2hvcnRjdXSiOzxYU2hvcnRjdXRYTlNPYmplY3TdHB0eHyAOISIjJCUmJygqPissLT4sMDFEPkUQAAgJgAQJgAMQEhIACAAA3RwdHh8gDiEiIyQlJicoKj4rLC1KLDAxTUpOCAmABBABCYADEBMSAAgAAN0cHR4fIA4hIiMkJSYnKClQKywtSiwwMVY+VxAECAmABAmAAxAUEgAIAADdHB0eHyAOISIjJCUmJygzPissLSosMDFeM18ICYAECYADEBUSAAgAAN0cHR4fIA4hIiMkJSYnKDM+KywtLiwwMWZQZwgJgAQJgAMQFhIACAAA3RwdHh8gDiEiIyQlJicoKSorLC1sLDAxb3BxCAmABBAHCYADEBkQBhIACAAA3RwdHh8gDiEiIyQlJicoKSorLC0uLDB3eDN5CAmABAmADBAXEgAIAABQ3RwdHh8gDiEiIyQlJicoMz4rLC1wLDB3gXCCCAmABAmADBAaEgAIAADdHB0eHyAOISIjJCUmJygzPissLWwsMHeJbIoICYAECYAMEBwSAAgAANI3OIyNXk5TTXV0YWJsZUFycmF5o4yOj1dOU0FycmF5WE5TT2JqZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBmAGwAcQB8AIMAjgCQAJIAlACWAJgAmgCcAJ4AoACiAKQAvwDIANoA7gD5AQABFQEdASkBMQE+AVUBYwFlAWcBaQFqAWsBbQFvAXABcgF0AXYBeAF9AX4BgwGOAZcBoAGjAawBtQHQAdIB0wHUAdYB1wHZAdsB4AH7AfwB/QH/AgECAgIEAgYCCwImAigCKQIqAiwCLQIvAjECNgJRAlICUwJVAlYCWAJaAl8CegJ7AnwCfgJ/AoECgwKIAqMCpAKlAqcCqQKqAqwCrgKwArUC0ALRAtIC1ALVAtcC2QLeAt8C+gL7AvwC/gL/AwEDAwMIAyMDJAMlAycDKAMqAywDMQM2A0UDSQNRAAAAAAAAAgEAAAAAAAAAkAAAAAAAAAAAAAAAAAAAA1o= Keyboard setting setup keyboard to &amp;ldquo;delay to short, repeat rate fast&amp;rdquo; [] defaults write -g ApplePressAndHoldEnabled -bool false (this make it work on chrome too) Chinese Input Developent Setup vscode or Cursor&#xA;login to GitHub profile…. corporate device won’t allow redirect.</description>
+    </item>
     <item>
       <title>Launching a Shell/Terminal for Google Colab</title>
-      <link>https://example.org/posts/google_colab_shell/</link>
+      <link>http://localhost:1313/posts/google_colab_shell/</link>
       <pubDate>Tue, 05 Sep 2023 14:16:51 -0700</pubDate>
-      
-      <guid>https://example.org/posts/google_colab_shell/</guid>
-      <description>Google Colab is basically a web GUI in front of a full-container on Linux. While you can run shell command one by one, it is not easy to run commands interactively. We can use tmate to help get a full shell.
-You can get the shell access if you pay for higher level Google Colab plans. With this tip, you can get that for free.
-How Add a code block with following</description>
+      <guid>http://localhost:1313/posts/google_colab_shell/</guid>
+      <description>Google Colab is basically a web GUI in front of a full-container on Linux. While you can run shell command one by one, it is not easy to run commands interactively. We can use tmate to help get a full shell.&#xA;You can get the shell access if you pay for higher level Google Colab plans. With this tip, you can get that for free.&#xA;How Add a code block with following</description>
     </item>
-    
     <item>
       <title>Gmail Mark All as Read</title>
-      <link>https://example.org/posts/gmail-mark-all-as-read/</link>
+      <link>http://localhost:1313/posts/gmail-mark-all-as-read/</link>
       <pubDate>Sat, 02 Sep 2023 16:33:28 -0700</pubDate>
-      
-      <guid>https://example.org/posts/gmail-mark-all-as-read/</guid>
-      <description>Too many un-read Gmail messages My gmail pertutually contains thousand of unread messages. Most of them are low signal but I don&amp;rsquo;t have a quick (enough) to mark all as read. My old method was to
-Create a earch filter like https://mail.google.com/mail/u/0/#search/label%3Aunread Select-all threads, and then &amp;hellip; and then &amp;ldquo;Mark all as read&amp;rdquo; Sometimes, you can expand the selection to all if there are paginations Keyboard Shortcuts This is too slow, so I looked up Gmail keyboard shortcuts</description>
+      <guid>http://localhost:1313/posts/gmail-mark-all-as-read/</guid>
+      <description>Too many un-read Gmail messages My gmail pertutually contains thousand of unread messages. Most of them are low signal but I don&amp;rsquo;t have a quick (enough) to mark all as read. My old method was to&#xA;Create a earch filter like https://mail.google.com/mail/u/0/#search/label%3Aunread Select-all threads, and then &amp;hellip; and then &amp;ldquo;Mark all as read&amp;rdquo; Sometimes, you can expand the selection to all if there are paginations Keyboard Shortcuts This is too slow, so I looked up Gmail keyboard shortcuts</description>
     </item>
-    
     <item>
       <title>Setting up this site with Hugo and Github</title>
-      <link>https://example.org/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sat, 02 Sep 2023 12:26:05 -0700</pubDate>
-      
-      <guid>https://example.org/posts/my-first-post/</guid>
-      <description>Inspired by Lillian&amp;rsquo;s blog I came across Lillian Weng&amp;rsquo;s ML Blog and enjoyed the style a lot so I decided to create a page to keep track of random note-worthy stuff I ran into withe same Hugo tool.
-Why do I like this Clean style Markdown based Github to track changes Github Pages for free hosting Streamlined publishing workflow (commit -&amp;gt; push -&amp;gt; publish) with Github Action. How I work on a Mac, assuming git is already install.</description>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Inspired by Lillian&amp;rsquo;s blog I came across Lillian Weng&amp;rsquo;s ML Blog and enjoyed the style a lot so I decided to create a page to keep track of random note-worthy stuff I ran into withe same Hugo tool.&#xA;Why do I like this Clean style Markdown based Github to track changes Github Pages for free hosting Streamlined publishing workflow (commit -&amp;gt; push -&amp;gt; publish) with Github Action. How I work on a Mac, assuming git is already install.</description>
     </item>
-    
   </channel>
 </rss>
